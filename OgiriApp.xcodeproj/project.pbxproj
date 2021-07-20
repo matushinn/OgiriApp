@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370DA9ED26A6D19700D89A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA9EC26A6D19700D89A49 /* AppDelegate.swift */; };
+		370DA9EF26A6D19700D89A49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA9EE26A6D19700D89A49 /* SceneDelegate.swift */; };
+		370DA9F126A6D19700D89A49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DA9F026A6D19700D89A49 /* ViewController.swift */; };
+		370DA9F426A6D19700D89A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370DA9F226A6D19700D89A49 /* Main.storyboard */; };
+		370DA9F626A6D19D00D89A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370DA9F526A6D19D00D89A49 /* Assets.xcassets */; };
+		370DA9F926A6D19D00D89A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370DA9F726A6D19D00D89A49 /* LaunchScreen.storyboard */; };
+		370DAA0426A6D19D00D89A49 /* OgiriAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA0326A6D19D00D89A49 /* OgiriAppTests.swift */; };
+		370DAA0F26A6D19D00D89A49 /* OgiriAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA0E26A6D19D00D89A49 /* OgiriAppUITests.swift */; };
+		67A466B29D9A7F4E2300E825 /* Pods_OgiriAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5599BC1F5A8485D3091C0627 /* Pods_OgiriAppTests.framework */; };
+		9979E20C41E089E6AAF1D0D9 /* Pods_OgiriApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04156A20455E3DB413441DB8 /* Pods_OgiriApp.framework */; };
+		C215CAF9FF41A9CFF9868EC4 /* Pods_OgiriApp_OgiriAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDACBE137B6FCFF0418FFE2 /* Pods_OgiriApp_OgiriAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		370DAA0026A6D19D00D89A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370DA9E126A6D19700D89A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370DA9E826A6D19700D89A49;
+			remoteInfo = OgiriApp;
+		};
+		370DAA0B26A6D19D00D89A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370DA9E126A6D19700D89A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370DA9E826A6D19700D89A49;
+			remoteInfo = OgiriApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04156A20455E3DB413441DB8 /* Pods_OgiriApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OgiriApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B6A147EF2ED9650DCBCB4C /* Pods-OgiriApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OgiriApp.debug.xcconfig"; path = "Target Support Files/Pods-OgiriApp/Pods-OgiriApp.debug.xcconfig"; sourceTree = "<group>"; };
+		2940B697759B2CEFCCAF2396 /* Pods-OgiriApp-OgiriAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OgiriApp-OgiriAppUITests.release.xcconfig"; path = "Target Support Files/Pods-OgiriApp-OgiriAppUITests/Pods-OgiriApp-OgiriAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E23AB4461FC2801FCC37EC9 /* Pods-OgiriAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OgiriAppTests.debug.xcconfig"; path = "Target Support Files/Pods-OgiriAppTests/Pods-OgiriAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		370DA9E926A6D19700D89A49 /* OgiriApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OgiriApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		370DA9EC26A6D19700D89A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		370DA9EE26A6D19700D89A49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		370DA9F026A6D19700D89A49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		370DA9F326A6D19700D89A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		370DA9F526A6D19D00D89A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		370DA9F826A6D19D00D89A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		370DA9FA26A6D19D00D89A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370DA9FF26A6D19D00D89A49 /* OgiriAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OgiriAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		370DAA0326A6D19D00D89A49 /* OgiriAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OgiriAppTests.swift; sourceTree = "<group>"; };
+		370DAA0526A6D19D00D89A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370DAA0A26A6D19D00D89A49 /* OgiriAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OgiriAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		370DAA0E26A6D19D00D89A49 /* OgiriAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OgiriAppUITests.swift; sourceTree = "<group>"; };
+		370DAA1026A6D19D00D89A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5599BC1F5A8485D3091C0627 /* Pods_OgiriAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OgiriAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F77DFAF4D7FEAE1E30B89BA /* Pods-OgiriApp-OgiriAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OgiriApp-OgiriAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-OgiriApp-OgiriAppUITests/Pods-OgiriApp-OgiriAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9466E960E230B3A1DA67E220 /* Pods-OgiriApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OgiriApp.release.xcconfig"; path = "Target Support Files/Pods-OgiriApp/Pods-OgiriApp.release.xcconfig"; sourceTree = "<group>"; };
+		9DFCE500F2D491542316220B /* Pods-OgiriAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OgiriAppTests.release.xcconfig"; path = "Target Support Files/Pods-OgiriAppTests/Pods-OgiriAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCDACBE137B6FCFF0418FFE2 /* Pods_OgiriApp_OgiriAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OgiriApp_OgiriAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		370DA9E626A6D19700D89A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9979E20C41E089E6AAF1D0D9 /* Pods_OgiriApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DA9FC26A6D19D00D89A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A466B29D9A7F4E2300E825 /* Pods_OgiriAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DAA0726A6D19D00D89A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C215CAF9FF41A9CFF9868EC4 /* Pods_OgiriApp_OgiriAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370DA9E026A6D19700D89A49 = {
+			isa = PBXGroup;
+			children = (
+				370DA9EB26A6D19700D89A49 /* OgiriApp */,
+				370DAA0226A6D19D00D89A49 /* OgiriAppTests */,
+				370DAA0D26A6D19D00D89A49 /* OgiriAppUITests */,
+				370DA9EA26A6D19700D89A49 /* Products */,
+				ACF3F5DDED9ABB0027D22D98 /* Pods */,
+				4F82622B10C75BFC1727BDC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		370DA9EA26A6D19700D89A49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370DA9E926A6D19700D89A49 /* OgiriApp.app */,
+				370DA9FF26A6D19D00D89A49 /* OgiriAppTests.xctest */,
+				370DAA0A26A6D19D00D89A49 /* OgiriAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370DA9EB26A6D19700D89A49 /* OgiriApp */ = {
+			isa = PBXGroup;
+			children = (
+				370DA9EC26A6D19700D89A49 /* AppDelegate.swift */,
+				370DA9EE26A6D19700D89A49 /* SceneDelegate.swift */,
+				370DA9F026A6D19700D89A49 /* ViewController.swift */,
+				370DA9F226A6D19700D89A49 /* Main.storyboard */,
+				370DA9F526A6D19D00D89A49 /* Assets.xcassets */,
+				370DA9F726A6D19D00D89A49 /* LaunchScreen.storyboard */,
+				370DA9FA26A6D19D00D89A49 /* Info.plist */,
+			);
+			path = OgiriApp;
+			sourceTree = "<group>";
+		};
+		370DAA0226A6D19D00D89A49 /* OgiriAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				370DAA0326A6D19D00D89A49 /* OgiriAppTests.swift */,
+				370DAA0526A6D19D00D89A49 /* Info.plist */,
+			);
+			path = OgiriAppTests;
+			sourceTree = "<group>";
+		};
+		370DAA0D26A6D19D00D89A49 /* OgiriAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				370DAA0E26A6D19D00D89A49 /* OgiriAppUITests.swift */,
+				370DAA1026A6D19D00D89A49 /* Info.plist */,
+			);
+			path = OgiriAppUITests;
+			sourceTree = "<group>";
+		};
+		4F82622B10C75BFC1727BDC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04156A20455E3DB413441DB8 /* Pods_OgiriApp.framework */,
+				DCDACBE137B6FCFF0418FFE2 /* Pods_OgiriApp_OgiriAppUITests.framework */,
+				5599BC1F5A8485D3091C0627 /* Pods_OgiriAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACF3F5DDED9ABB0027D22D98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25B6A147EF2ED9650DCBCB4C /* Pods-OgiriApp.debug.xcconfig */,
+				9466E960E230B3A1DA67E220 /* Pods-OgiriApp.release.xcconfig */,
+				5F77DFAF4D7FEAE1E30B89BA /* Pods-OgiriApp-OgiriAppUITests.debug.xcconfig */,
+				2940B697759B2CEFCCAF2396 /* Pods-OgiriApp-OgiriAppUITests.release.xcconfig */,
+				2E23AB4461FC2801FCC37EC9 /* Pods-OgiriAppTests.debug.xcconfig */,
+				9DFCE500F2D491542316220B /* Pods-OgiriAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		370DA9E826A6D19700D89A49 /* OgiriApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370DAA1326A6D19D00D89A49 /* Build configuration list for PBXNativeTarget "OgiriApp" */;
+			buildPhases = (
+				C3D1DD4F03EAC54B3A421495 /* [CP] Check Pods Manifest.lock */,
+				370DA9E526A6D19700D89A49 /* Sources */,
+				370DA9E626A6D19700D89A49 /* Frameworks */,
+				370DA9E726A6D19700D89A49 /* Resources */,
+				EB71D5C147312E98744208D2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OgiriApp;
+			productName = OgiriApp;
+			productReference = 370DA9E926A6D19700D89A49 /* OgiriApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		370DA9FE26A6D19D00D89A49 /* OgiriAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370DAA1626A6D19D00D89A49 /* Build configuration list for PBXNativeTarget "OgiriAppTests" */;
+			buildPhases = (
+				8D1685FD085ACBF1B751B681 /* [CP] Check Pods Manifest.lock */,
+				370DA9FB26A6D19D00D89A49 /* Sources */,
+				370DA9FC26A6D19D00D89A49 /* Frameworks */,
+				370DA9FD26A6D19D00D89A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370DAA0126A6D19D00D89A49 /* PBXTargetDependency */,
+			);
+			name = OgiriAppTests;
+			productName = OgiriAppTests;
+			productReference = 370DA9FF26A6D19D00D89A49 /* OgiriAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		370DAA0926A6D19D00D89A49 /* OgiriAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370DAA1926A6D19D00D89A49 /* Build configuration list for PBXNativeTarget "OgiriAppUITests" */;
+			buildPhases = (
+				4D3F0043BF833056993B5594 /* [CP] Check Pods Manifest.lock */,
+				370DAA0626A6D19D00D89A49 /* Sources */,
+				370DAA0726A6D19D00D89A49 /* Frameworks */,
+				370DAA0826A6D19D00D89A49 /* Resources */,
+				1A3432FC1DD65E8D4E8014AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370DAA0C26A6D19D00D89A49 /* PBXTargetDependency */,
+			);
+			name = OgiriAppUITests;
+			productName = OgiriAppUITests;
+			productReference = 370DAA0A26A6D19D00D89A49 /* OgiriAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		370DA9E126A6D19700D89A49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					370DA9E826A6D19700D89A49 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					370DA9FE26A6D19D00D89A49 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 370DA9E826A6D19700D89A49;
+					};
+					370DAA0926A6D19D00D89A49 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 370DA9E826A6D19700D89A49;
+					};
+				};
+			};
+			buildConfigurationList = 370DA9E426A6D19700D89A49 /* Build configuration list for PBXProject "OgiriApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 370DA9E026A6D19700D89A49;
+			productRefGroup = 370DA9EA26A6D19700D89A49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				370DA9E826A6D19700D89A49 /* OgiriApp */,
+				370DA9FE26A6D19D00D89A49 /* OgiriAppTests */,
+				370DAA0926A6D19D00D89A49 /* OgiriAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		370DA9E726A6D19700D89A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370DA9F926A6D19D00D89A49 /* LaunchScreen.storyboard in Resources */,
+				370DA9F626A6D19D00D89A49 /* Assets.xcassets in Resources */,
+				370DA9F426A6D19700D89A49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DA9FD26A6D19D00D89A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DAA0826A6D19D00D89A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A3432FC1DD65E8D4E8014AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OgiriApp-OgiriAppUITests/Pods-OgiriApp-OgiriAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OgiriApp-OgiriAppUITests/Pods-OgiriApp-OgiriAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OgiriApp-OgiriAppUITests/Pods-OgiriApp-OgiriAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D3F0043BF833056993B5594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OgiriApp-OgiriAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D1685FD085ACBF1B751B681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OgiriAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D1DD4F03EAC54B3A421495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OgiriApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB71D5C147312E98744208D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OgiriApp/Pods-OgiriApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OgiriApp/Pods-OgiriApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OgiriApp/Pods-OgiriApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370DA9E526A6D19700D89A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370DA9F126A6D19700D89A49 /* ViewController.swift in Sources */,
+				370DA9ED26A6D19700D89A49 /* AppDelegate.swift in Sources */,
+				370DA9EF26A6D19700D89A49 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DA9FB26A6D19D00D89A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370DAA0426A6D19D00D89A49 /* OgiriAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370DAA0626A6D19D00D89A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370DAA0F26A6D19D00D89A49 /* OgiriAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		370DAA0126A6D19D00D89A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370DA9E826A6D19700D89A49 /* OgiriApp */;
+			targetProxy = 370DAA0026A6D19D00D89A49 /* PBXContainerItemProxy */;
+		};
+		370DAA0C26A6D19D00D89A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370DA9E826A6D19700D89A49 /* OgiriApp */;
+			targetProxy = 370DAA0B26A6D19D00D89A49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		370DA9F226A6D19700D89A49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370DA9F326A6D19700D89A49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		370DA9F726A6D19D00D89A49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370DA9F826A6D19D00D89A49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		370DAA1126A6D19D00D89A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		370DAA1226A6D19D00D89A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370DAA1426A6D19D00D89A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B6A147EF2ED9650DCBCB4C /* Pods-OgiriApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M82FLD6C75;
+				INFOPLIST_FILE = OgiriApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.shotaroooe.OgiriApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		370DAA1526A6D19D00D89A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9466E960E230B3A1DA67E220 /* Pods-OgiriApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M82FLD6C75;
+				INFOPLIST_FILE = OgiriApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.shotaroooe.OgiriApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		370DAA1726A6D19D00D89A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E23AB4461FC2801FCC37EC9 /* Pods-OgiriAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M82FLD6C75;
+				INFOPLIST_FILE = OgiriAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.shotaroooe.OgiriAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OgiriApp.app/OgiriApp";
+			};
+			name = Debug;
+		};
+		370DAA1826A6D19D00D89A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFCE500F2D491542316220B /* Pods-OgiriAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M82FLD6C75;
+				INFOPLIST_FILE = OgiriAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.shotaroooe.OgiriAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OgiriApp.app/OgiriApp";
+			};
+			name = Release;
+		};
+		370DAA1A26A6D19D00D89A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F77DFAF4D7FEAE1E30B89BA /* Pods-OgiriApp-OgiriAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M82FLD6C75;
+				INFOPLIST_FILE = OgiriAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.shotaroooe.OgiriAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OgiriApp;
+			};
+			name = Debug;
+		};
+		370DAA1B26A6D19D00D89A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2940B697759B2CEFCCAF2396 /* Pods-OgiriApp-OgiriAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M82FLD6C75;
+				INFOPLIST_FILE = OgiriAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.shotaroooe.OgiriAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OgiriApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		370DA9E426A6D19700D89A49 /* Build configuration list for PBXProject "OgiriApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370DAA1126A6D19D00D89A49 /* Debug */,
+				370DAA1226A6D19D00D89A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370DAA1326A6D19D00D89A49 /* Build configuration list for PBXNativeTarget "OgiriApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370DAA1426A6D19D00D89A49 /* Debug */,
+				370DAA1526A6D19D00D89A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370DAA1626A6D19D00D89A49 /* Build configuration list for PBXNativeTarget "OgiriAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370DAA1726A6D19D00D89A49 /* Debug */,
+				370DAA1826A6D19D00D89A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370DAA1926A6D19D00D89A49 /* Build configuration list for PBXNativeTarget "OgiriAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370DAA1A26A6D19D00D89A49 /* Debug */,
+				370DAA1B26A6D19D00D89A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 370DA9E126A6D19700D89A49 /* Project object */;
+}
