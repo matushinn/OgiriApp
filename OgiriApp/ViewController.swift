@@ -6,6 +6,10 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
+import SDWebImage
+import Photos
 
 class ViewController: UIViewController {
 
