@@ -58,8 +58,19 @@ class ViewController: UIViewController {
                 //jsonでデータを取得する
                 let json:JSON = JSON(response.data as Any)
                 //詳しくはメモ帳(API応用)　配列の中の求めたいURLにアクセスする　countはボタンが押されたらカウントされる
-                let imageString
+                var imageString
                     = json["hits"][self.count]["webformatURL"].string
+                
+                //imageStringが無くなった時の処理
+                if imageString == nil {
+                    imageString
+                        = json["hits"][0]["webformatURL"].string
+                }
+                /*
+                 else{
+                 self.odaiImageView.sd_setImage(with: URL(string:imageString!), completed: nil)
+                 }
+                 */
                 self.odaiImageView.sd_setImage(with: URL(string:imageString!), completed: nil)
                 
                 
@@ -92,6 +103,17 @@ class ViewController: UIViewController {
             getImages(keyword: searchTextField.text!)
         }
 
+    }
+    
+    @IBAction func next(_ sender: Any) {
+        performSegue(withIdentifier: "next", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let shareVC = segue.destination as? ShareViewController
+        
+        shareVC?.commentString = commentTextView.text
+        shareVC?.resultImage = odaiImageView.image!
         
     }
     

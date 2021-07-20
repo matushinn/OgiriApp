@@ -48,6 +48,9 @@
                                 <rect key="frame" x="57" y="790" width="337" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="決定"/>
+                                <connections>
+                                    <action selector="next:" destination="BYZ-38-t0r" eventType="touchUpInside" id="87A-PM-cyO"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fB6-PW-c3V">
                                 <rect key="frame" x="57" y="94" width="228" height="34"/>
@@ -63,16 +66,17 @@
                         <outlet property="commentTextView" destination="tXB-LF-bBb" id="OqO-JU-ngC"/>
                         <outlet property="odaiImageView" destination="YvD-zR-Odz" id="hb5-Ql-P3f"/>
                         <outlet property="searchTextField" destination="fB6-PW-c3V" id="kka-ZU-ks0"/>
+                        <segue destination="DFl-N4-QnM" kind="presentation" identifier="next" modalPresentationStyle="fullScreen" id="Ibo-Kh-XcM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="95.652173913043484" y="81.696428571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Share View Controller-->
         <scene sceneID="mu9-gq-KLa">
             <objects>
-                <viewController id="DFl-N4-QnM" sceneMemberID="viewController">
+                <viewController id="DFl-N4-QnM" customClass="ShareViewController" customModule="OgiriApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Won-1b-hge">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,11 +100,17 @@
                                 <rect key="frame" x="51" y="727" width="337" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="シェアする"/>
+                                <connections>
+                                    <action selector="share:" destination="DFl-N4-QnM" eventType="touchUpInside" id="1xQ-7O-pUa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKP-bR-Tez">
                                 <rect key="frame" x="39" y="783" width="337" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="dismiss:" destination="DFl-N4-QnM" eventType="touchUpInside" id="v0y-22-g0Z"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="画像で一言" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65Y-Of-vn7">
                                 <rect key="frame" x="51" y="467" width="313" height="134"/>
@@ -113,6 +123,10 @@
                         <viewLayoutGuide key="safeArea" id="5uh-8J-3yz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="commentLabel" destination="65Y-Of-vn7" id="icF-wj-6G4"/>
+                        <outlet property="resultImageView" destination="fey-6C-5b8" id="j8k-N8-KtJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BIB-DL-MbN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

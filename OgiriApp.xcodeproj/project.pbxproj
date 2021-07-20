@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		370DA9F926A6D19D00D89A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370DA9F726A6D19D00D89A49 /* LaunchScreen.storyboard */; };
 		370DAA0426A6D19D00D89A49 /* OgiriAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA0326A6D19D00D89A49 /* OgiriAppTests.swift */; };
 		370DAA0F26A6D19D00D89A49 /* OgiriAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA0E26A6D19D00D89A49 /* OgiriAppUITests.swift */; };
+		370DAA1D26A6F8FF00D89A49 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA1C26A6F8FF00D89A49 /* ShareViewController.swift */; };
 		67A466B29D9A7F4E2300E825 /* Pods_OgiriAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5599BC1F5A8485D3091C0627 /* Pods_OgiriAppTests.framework */; };
 		9979E20C41E089E6AAF1D0D9 /* Pods_OgiriApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04156A20455E3DB413441DB8 /* Pods_OgiriApp.framework */; };
 		C215CAF9FF41A9CFF9868EC4 /* Pods_OgiriApp_OgiriAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDACBE137B6FCFF0418FFE2 /* Pods_OgiriApp_OgiriAppUITests.framework */; };
@@ -56,6 +57,7 @@
 		370DAA0A26A6D19D00D89A49 /* OgiriAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OgiriAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		370DAA0E26A6D19D00D89A49 /* OgiriAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OgiriAppUITests.swift; sourceTree = "<group>"; };
 		370DAA1026A6D19D00D89A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370DAA1C26A6F8FF00D89A49 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		5599BC1F5A8485D3091C0627 /* Pods_OgiriAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OgiriAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F77DFAF4D7FEAE1E30B89BA /* Pods-OgiriApp-OgiriAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OgiriApp-OgiriAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-OgiriApp-OgiriAppUITests/Pods-OgiriApp-OgiriAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9466E960E230B3A1DA67E220 /* Pods-OgiriApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OgiriApp.release.xcconfig"; path = "Target Support Files/Pods-OgiriApp/Pods-OgiriApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				370DA9F526A6D19D00D89A49 /* Assets.xcassets */,
 				370DA9F726A6D19D00D89A49 /* LaunchScreen.storyboard */,
 				370DA9FA26A6D19D00D89A49 /* Info.plist */,
+				370DAA1C26A6F8FF00D89A49 /* ShareViewController.swift */,
 			);
 			path = OgiriApp;
 			sourceTree = "<group>";
@@ -165,7 +168,6 @@
 				2E23AB4461FC2801FCC37EC9 /* Pods-OgiriAppTests.debug.xcconfig */,
 				9DFCE500F2D491542316220B /* Pods-OgiriAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -409,6 +411,7 @@
 			files = (
 				370DA9F126A6D19700D89A49 /* ViewController.swift in Sources */,
 				370DA9ED26A6D19700D89A49 /* AppDelegate.swift in Sources */,
+				370DAA1D26A6F8FF00D89A49 /* ShareViewController.swift in Sources */,
 				370DA9EF26A6D19700D89A49 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
