@@ -14,7 +14,6 @@ class ShareViewController: UIViewController {
     
     var screenShotImage = UIImage()
     
-    
     @IBOutlet weak var resultImageView: UIImageView!
     
     @IBOutlet weak var commentLabel: UILabel!
@@ -38,7 +37,6 @@ class ShareViewController: UIViewController {
         let activityVC = UIActivityViewController(activityItems: items, applicationActivities: nil)
         
         present(activityVC, animated: true, completion: nil)
-        
     }
     
     func takeScreenShot(){
@@ -52,11 +50,9 @@ class ShareViewController: UIViewController {
         self.view.drawHierarchy(in: view.bounds, afterScreenUpdates: true)
         screenShotImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
-        
     }
+    
     @IBAction func dismiss(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-    
-
 }

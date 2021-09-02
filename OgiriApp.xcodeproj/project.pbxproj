@@ -16,6 +16,9 @@
 		370DAA0426A6D19D00D89A49 /* OgiriAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA0326A6D19D00D89A49 /* OgiriAppTests.swift */; };
 		370DAA0F26A6D19D00D89A49 /* OgiriAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA0E26A6D19D00D89A49 /* OgiriAppUITests.swift */; };
 		370DAA1D26A6F8FF00D89A49 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DAA1C26A6F8FF00D89A49 /* ShareViewController.swift */; };
+		37442D5926C2690D00094A93 /* OgiriModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37442D5826C2690D00094A93 /* OgiriModel.swift */; };
+		37E8F9FE26DFB6D500900E6C /* OdaiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E8F9FD26DFB6D500900E6C /* OdaiManager.swift */; };
+		37E8FA0226DFD8FD00900E6C /* AuthCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E8FA0126DFD8FD00900E6C /* AuthCheck.swift */; };
 		67A466B29D9A7F4E2300E825 /* Pods_OgiriAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5599BC1F5A8485D3091C0627 /* Pods_OgiriAppTests.framework */; };
 		9979E20C41E089E6AAF1D0D9 /* Pods_OgiriApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04156A20455E3DB413441DB8 /* Pods_OgiriApp.framework */; };
 		C215CAF9FF41A9CFF9868EC4 /* Pods_OgiriApp_OgiriAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDACBE137B6FCFF0418FFE2 /* Pods_OgiriApp_OgiriAppUITests.framework */; };
@@ -58,6 +61,9 @@
 		370DAA0E26A6D19D00D89A49 /* OgiriAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OgiriAppUITests.swift; sourceTree = "<group>"; };
 		370DAA1026A6D19D00D89A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		370DAA1C26A6F8FF00D89A49 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		37442D5826C2690D00094A93 /* OgiriModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OgiriModel.swift; sourceTree = "<group>"; };
+		37E8F9FD26DFB6D500900E6C /* OdaiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdaiManager.swift; sourceTree = "<group>"; };
+		37E8FA0126DFD8FD00900E6C /* AuthCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCheck.swift; sourceTree = "<group>"; };
 		5599BC1F5A8485D3091C0627 /* Pods_OgiriAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OgiriAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F77DFAF4D7FEAE1E30B89BA /* Pods-OgiriApp-OgiriAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OgiriApp-OgiriAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-OgiriApp-OgiriAppUITests/Pods-OgiriApp-OgiriAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9466E960E230B3A1DA67E220 /* Pods-OgiriApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OgiriApp.release.xcconfig"; path = "Target Support Files/Pods-OgiriApp/Pods-OgiriApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,14 +124,14 @@
 		370DA9EB26A6D19700D89A49 /* OgiriApp */ = {
 			isa = PBXGroup;
 			children = (
+				37E8F9FC26DFB6C100900E6C /* View */,
+				37E8F9FB26DFB6B900900E6C /* Controller */,
+				37E8F9FA26DFB6AF00900E6C /*  Model */,
 				370DA9EC26A6D19700D89A49 /* AppDelegate.swift */,
 				370DA9EE26A6D19700D89A49 /* SceneDelegate.swift */,
-				370DA9F026A6D19700D89A49 /* ViewController.swift */,
-				370DA9F226A6D19700D89A49 /* Main.storyboard */,
 				370DA9F526A6D19D00D89A49 /* Assets.xcassets */,
 				370DA9F726A6D19D00D89A49 /* LaunchScreen.storyboard */,
 				370DA9FA26A6D19D00D89A49 /* Info.plist */,
-				370DAA1C26A6F8FF00D89A49 /* ShareViewController.swift */,
 			);
 			path = OgiriApp;
 			sourceTree = "<group>";
@@ -146,6 +152,33 @@
 				370DAA1026A6D19D00D89A49 /* Info.plist */,
 			);
 			path = OgiriAppUITests;
+			sourceTree = "<group>";
+		};
+		37E8F9FA26DFB6AF00900E6C /*  Model */ = {
+			isa = PBXGroup;
+			children = (
+				37442D5826C2690D00094A93 /* OgiriModel.swift */,
+				37E8FA0126DFD8FD00900E6C /* AuthCheck.swift */,
+			);
+			path = " Model";
+			sourceTree = "<group>";
+		};
+		37E8F9FB26DFB6B900900E6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				370DAA1C26A6F8FF00D89A49 /* ShareViewController.swift */,
+				370DA9F026A6D19700D89A49 /* ViewController.swift */,
+				37E8F9FD26DFB6D500900E6C /* OdaiManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		37E8F9FC26DFB6C100900E6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				370DA9F226A6D19700D89A49 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		4F82622B10C75BFC1727BDC5 /* Frameworks */ = {
@@ -411,7 +444,10 @@
 			files = (
 				370DA9F126A6D19700D89A49 /* ViewController.swift in Sources */,
 				370DA9ED26A6D19700D89A49 /* AppDelegate.swift in Sources */,
+				37E8FA0226DFD8FD00900E6C /* AuthCheck.swift in Sources */,
+				37442D5926C2690D00094A93 /* OgiriModel.swift in Sources */,
 				370DAA1D26A6F8FF00D89A49 /* ShareViewController.swift in Sources */,
+				37E8F9FE26DFB6D500900E6C /* OdaiManager.swift in Sources */,
 				370DA9EF26A6D19700D89A49 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
